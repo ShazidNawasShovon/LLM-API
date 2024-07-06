@@ -16,11 +16,11 @@ pip install -r requirements.txt
 #### 3. Run the Flask Application
 * Open a `Terminal` in VS Code then paste.
 
-```bash
-python app.py # run with CSV file
+```python
+python app.py #run with CSV file
 ```
-```bash
-python app_without_CSV.py # run without CSV file
+```python
+python app_without_CSV.py #run without CSV file
 ```
 * This command starts the Flask server. By default, it runs on [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 #### 4. Access the API
