@@ -49,7 +49,7 @@ print(response.json())
 ```
 #### 3. Run the API in Terminal
 * Open another `Terminal` in VS Code then paste.
-```bash
+```python
 python test_api.py
 ```
 
