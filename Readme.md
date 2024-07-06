@@ -28,7 +28,9 @@ python app_without_CSV.py #run without CSV file
   * /: Provides information about the home page and how to use the API.
   * /evaluate: Endpoint for evaluating student answers. Send POST requests with JSON data to this endpoint.
 ## Usage:
+
 ```python
+
 import requests
 
 url = 'http://127.0.0.1:5000/evaluate'
@@ -46,6 +48,7 @@ data = [
 
 response = requests.post(url, json=data)
 print(response.json())
+
 ```
 #### 3. Run the API in Terminal
 * Open another `Terminal` in VS Code then paste.
