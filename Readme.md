@@ -27,10 +27,10 @@ python app_without_CSV.py #run without CSV file
 * Once the Flask application is running, you can access the following endpoints:
   * /: Provides information about the home page and how to use the API.
   * /evaluate: Endpoint for evaluating student answers. Send POST requests with JSON data to this endpoint.
-## Usage:
+
+## Usage
 
 ```python
-
 import requests
 
 url = 'http://127.0.0.1:5000/evaluate'
@@ -48,7 +48,6 @@ data = [
 
 response = requests.post(url, json=data)
 print(response.json())
-
 ```
 #### 3. Run the API in Terminal
 * Open another `Terminal` in VS Code then paste.
