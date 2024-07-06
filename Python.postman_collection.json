@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "9a6f65da-4f68-4169-94df-c927c13480fc",
+		"name": "Python",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33770149"
+	},
+	"item": [
+		{
+			"name": "evaluate-student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"answer_1\": \"The cat is on the mat.\",\r\n        \"answer_2\": \"There is a cat on the mat.\",\r\n        \"answer_3\": \"A cat is sitting on a mat.\",\r\n        \"answer_4\": \"On the mat, there is a cat.\",\r\n        \"question\": \"Where is the cat?\",\r\n        \"student_answer\": \"A cat is on the mat.\"\r\n    }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/evaluate",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"evaluate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Home",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000"
+				}
+			},
+			"response": []
+		}
+	]
+}
